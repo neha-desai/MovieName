@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--BOOTSTRAP LINK-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--FONT LINK-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+
+    <!--JS FILE LINK-->
+    <script src="Rmovie.js"></script>
+
+    <!--CSS FILE LINK-->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!--WEBSITE TITLE DIVISION-->
+    <h3>Random <span>Bollywood</span> Movie Name Generator</h3>
+
+    <!--MOVIE NAME DIVISION-->
+    <div id="random-name">
+      <!--DISPLAYING MOVIE NAME-->
+
+      <div id="movieTitle">
+        <div id="reels">
+          <div id="squares"></div>
+          <div id="squares" style="transform: translateY(10px)"></div>
+          <div id="squares" style="transform: translateY(20px)"></div>
+          <div id="squares" style="transform: translateY(30px)"></div>
+          <div id="squares" style="transform: translateY(40px)"></div>
+          <div id="squares" style="transform: translateY(50px)"></div>
+          <div id="squares" style="transform: translateY(60px)"></div>
+        </div>
+
+        <!--MOVIE NAME-->
+        <div id="movieNameDisplay"></div>
+
+        <div id="reelsright">
+          <div id="squares" style="transform: translateY(10px)"></div>
+          <div id="squares" style="transform: translateY(20px)"></div>
+          <div id="squares" style="transform: translateY(30px)"></div>
+          <div id="squares" style="transform: translateY(40px)"></div>
+          <div id="squares" style="transform: translateY(50px)"></div>
+          <div id="squares" style="transform: translateY(60px)"></div>
+          <div id="squares" style="transform: translateY(70px)"></div>
+        </div>
+      </div>
+      <div id="leadActors"></div>
+      <div id="releaseDate"></div>
+      <div id="director"></div>
+
+      <br />
+
+      <!--BUTTON TO GENERATE RANDOM MOVIE NAME-->
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        onclick="generateMovie()"
+        id="generate"
+      >
+        Generate Movie Name
+      </button>
+    </div>
+  </body>
+</html>

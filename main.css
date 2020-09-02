@@ -1,0 +1,93 @@
+* {
+  font-family: "Open Sans";
+}
+
+h3 {
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+
+.container {
+  text-align: center;
+}
+
+#generate {
+  border: 3px double white;
+  height: 80px;
+  font-size: 24px;
+}
+
+#random-name {
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 200px;
+}
+
+#movieTitle {
+  border: 5px solid rgb(39, 38, 38);
+  border-left: none;
+  border-right: none;
+  padding: 0px 0px 0px 0px;
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 900;
+  max-width: 900px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#movieNameDisplay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#reels {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(39, 38, 38);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border: none;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+#reelsright {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(39, 38, 38);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding-left: 5px;
+}
+#squares {
+  background-color: white;
+  height: 15px;
+  width: 15px;
+}
+#squares1 {
+  background-color: white;
+  height: 15px;
+  width: 15px;
+}
+#leadActors {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+#releaseDate {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+#director {
+  margin-top: 20px;
+  font-size: 19px;
+}
